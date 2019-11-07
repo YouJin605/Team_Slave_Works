@@ -10,7 +10,7 @@ class PostLinks extends Component {
 
     async componentDidMount() {
         try {
-            const res = await fetch('http://127.0.0.1:9000/api/');
+            const res = await fetch('http://127.0.0.1:9000/api/post');
             const posts = await res.json();
             this.setState({
                 posts

@@ -20,10 +20,10 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('main/',include('main.urls')),
-    path('shop/', include('shop.urls')),
-    path('board/',include('board.urls')),
-    path('lookbook/',include('lookbook.urls')),
+    #path('main/',include('main.urls')),
+    #path('shop/', include('shop.urls')),
+    #path('board/',include('board.urls')),
+    #path('lookbook/',include('lookbook.urls')),
     
     path('api/', include('API.urls')),
 ]
